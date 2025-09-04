@@ -161,8 +161,18 @@ data_merged.dropna()
 data_merged.head(50)
 
 #Rename columns
-data_merged.columns = ["acc_x", "acc_y", "acc_z", "gyr_x", "gyr_y", "gyr_z", "participant", "label", "category", "set",]
-
+data_merged.columns = [
+    "acc_x",
+    "acc_y",
+    "acc_z",
+    "gyr_x",
+    "gyr_y",
+    "gyr_z",
+    "participant",
+    "label",
+    "category",
+    "set",
+]
 
 
 # --------------------------------------------------------------
